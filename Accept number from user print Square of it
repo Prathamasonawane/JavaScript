@@ -1,0 +1,19 @@
+//Accept number from user print Square of it..
+
+<html>
+  <body>
+    <form>
+	Enter Number
+	 <input type="text" id="t1"><br>
+	 <input type="button" value="OK" onclick="square()">
+</form>
+ </body>
+</html>
+<script language="javascript">
+	function square()
+	 {
+	   n=document.getElementById("t1").value;
+	   b=n*n;
+	   alert("Square of Number="+b);
+	 }
+</script>
