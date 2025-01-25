@@ -1,0 +1,19 @@
+//Accept two number user print Addition of it Using confirm Dialog box.....
+
+<html>
+<body>
+<script language="javascript">
+  k=confirm("Are U Sure...?");
+	if(k==true)
+	{
+	  a=prompt("Enter Number:");
+  	  b=prompt("Enter Number:");U
+		a=parseInt(a);
+		b=parseInt(b);
+		c=a+b;
+	alert("Addition="+c);
+	}
+</script>
+</body>
+</html>
+
