@@ -1,0 +1,15 @@
+//Accept two number user print Addition of it..
+
+
+<html>
+<body>
+<script language="javascript">
+	  a=prompt("Enter Number:");
+  	  b=prompt("Enter Number:");
+		a=parseInt(a);
+		b=parseInt(b);
+		c=a+b;
+	alert("Addition="+c);
+</script>
+</body>
+</html>
