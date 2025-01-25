@@ -1,0 +1,29 @@
+//Print 5 Table Using JavaScript.........
+
+
+<html>
+<body>
+  <script language="javascript">
+    var n=5,i;
+	for(i=1;i<=10;i++)
+	{
+	  document.write("<br>"+n*i);
+	}
+</script>
+</body>
+</html>
+
+==================================================
+OUTPUT:--
+
+//Print 5 Table Using JavaScript......... 
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50 
