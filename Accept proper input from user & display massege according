@@ -1,0 +1,11 @@
+//Write Javascript to display "Exams are near,have you stated preparing for? using alert,prompt & confirm boxes.
+//Accept proper input from user & display massege according....
+
+<script language="javascript">
+  var k=confirm("Are U Sure?");
+    if(k==true)
+	{
+	  s1=prompt("Enter Massage....");
+	   alert(s1);
+	}
+</script>
