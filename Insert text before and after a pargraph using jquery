@@ -1,0 +1,21 @@
+//Create a html file to Insert text before and after a pargraph using jquery.[Hint use before() & after()]
+
+<html>
+<head>
+<script src="/home/bcs/Downloads/jquery-3.7.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").before("<h1>RBNB");
+    });
+  $("#btn2").click(function(){  
+    $("p").after("<h1>CDJ");
+    });
+    });
+    </script>
+    </head>
+<button id="btn1">Insert Before</button><br>
+<button id="btn2">Insert After</button><br>
+	<p>Php is easy and easy to learn</p>
+</body>
+</html>
